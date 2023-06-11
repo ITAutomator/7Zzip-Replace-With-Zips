@@ -9,11 +9,12 @@ By default, searches for all files, but you can include (and exclude) any types 
 By default, zips are split into 500MB chunks.
 
 **7ZzipReplaceSubfoldersWithZips.ps1** Download [here](https://github.com/ITAutomator/7Zzip-Replace-With-Zips/blob/main/7ZzipReplaceSubfoldersWithZips.ps1)
+
 Same as above, except that it replaces subfolders with chunked zips.
 
 **Usage**
 1.	Install 7Zip on the machine (7Zip is a popular free zip tool. Download [here](https://www.7-zip.org/download.html))
-2.	Copy the ps1 files into the folder where you have files to zip.
-3.	Edit the ps1 to adjust the file types to search for.
+2.	Copy the ps1 file into the folder where you have files to zip.
+3.	(Optional) Edit the ps1 to adjust the file types to search for.
 4.	Right-click and Run with Powershell
 
